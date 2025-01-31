@@ -181,7 +181,11 @@ hr.half{
     display:inline;
     line-height: 0.25rem;
     margin: 10px 10px -10px;
+    p{
+        line-height: normal;
+    }
 }
+
 textarea{
     background-color: rgba(46, 123, 255, 0.42);
     color: $main;

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/javascript/linkcircle.js"></script>
+    <title>Webmaster Webring: {{ title }}</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light only"/>
+    <meta name="theme-color" content="#89bbe3">
+    
+    <!--meta tags-->
+    <meta name="description" content="{{ description }}"/>
+    <meta property="og:site_name" content="Netlify"/>
+    <meta property="og:title" content="Webmaster Webring: {{ title }}"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description }}"/>
+    <meta property="og:image" content="https://file.garden/ZrZSgsrYfQXsO7QH/wwbtn.png"/>
+    <meta property="og:image:height" content="800"/>
+    <meta property="og:url" content="https://webmasterwebring.netlify.app/{{ name }}"/>
+    
+    <!--and the bird app bc they just have to be special-->
+    <meta name="twitter:title" content="Webmaster Webring: {{ title }}" />
+    <meta name="twitter:image" content="https://file.garden/ZrZSgsrYfQXsO7QH/wwbtn.png">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta property="twitter:card" content="summary_large_image"/>
+    
+    <link rel="canonical" href="https://webmasterwebring.netlify.app/{{ name }}"/>
+    <link rel="icon" type="image/x-icon" href="/images/star-icon.png">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+    <div id="preloader"></div>
+</head>
+<body>
+    <header><a href="/index">☆ Webmaster Webring ☆</a></header>
+    <div id="container">
+      <div id="nav">{% include 'nav.njk' %}</div>  
+      <div id="main">
+        {{ content | safe }}
+      </div>
+    </div>
+    <div id="container">
+      <div id="bottom">
+        <a href="https://dabric.xyz/post/linkcircle/" target="_blank"><img src="/images/buttons/linkcircle.png" alt="powered by linkcircle"></a>
+        <a href="https://evehibi.nekoweb.org/ringlink/info" target="_blank"><img src="/images/buttons/ringlink.gif" alt="ringlink"></a>
+        <a href="https://www.11ty.dev/" target="_blank"><img src="/images/buttons/11ty.png" alt="11ty"></a>
+      </div>
+    </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+          loader.style.display = "none";
+        });
+    </script>
+</body>
+</html>

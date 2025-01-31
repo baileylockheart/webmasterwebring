@@ -1,0 +1,24 @@
+#ww-stamp{
+    width: 99px;
+    height: 56px;
+}
+#webmasteringbtn{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    font-size: 2rem;
+}
+#webmasteringbtn img{
+    width:88px;
+    height:31px;
+}
+#webmasteringbtn a{
+    color: #2da5d8;
+    text-decoration: none;
+}
+#webmasteringbtn a:hover{
+    color: #fa8c8c;
+    text-decoration: none;
+}

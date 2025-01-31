@@ -1,0 +1,22 @@
+{
+  "name": "webmasterwebring",
+  "version": "1.0.0",
+  "description": "A webring for websites of all kinds!",
+  "homepage": "https://github.com/baileylockheart/webmasterwebring#readme",
+  "bugs": {
+    "url": "https://github.com/baileylockheart/webmasterwebring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baileylockheart/webmasterwebring.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

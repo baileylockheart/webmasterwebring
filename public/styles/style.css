@@ -231,6 +231,26 @@ textarea {
   z-index: 9999;
 }
 
+/*buttons*/
+.maxbutton {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  height: 70px;
+  border: 2px dashed #7c316f;
+  border-radius: 5px;
+  background-image: url("/images/buttons/links/venus1.jpg");
+  box-shadow: 0px 0px 1px 1px #333333;
+}
+
+.maxbutton:hover {
+  border-color: #0d24bc;
+  background-image: url("/images/buttons/links/venus2.jpg");
+  box-shadow: 0px 0px 1px 1px #333333;
+}
+
 /*media querey*/
 @media (max-width: 768px) {
   html {

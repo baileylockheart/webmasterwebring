@@ -206,6 +206,9 @@ hr.half {
 .sitetext p {
   line-height: normal;
 }
+.sitetext summary {
+  line-height: 2.25rem;
+}
 
 textarea {
   background-color: rgba(46, 123, 255, 0.42);
